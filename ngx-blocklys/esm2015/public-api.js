@@ -1,0 +1,15 @@
+/*
+ * @Author: junsheng.liu
+ * @Descripttion:
+ * @Date: 2021-11-01 15:02:21
+ * @LastEditors: junsheng
+ * @LastEditTime: 2021-11-01 15:27:11
+ * @FilePath: /angular-blockly/projects/ngx-blocklys/src/public-api.ts
+ */
+/*
+ * Public API Surface of ngx-blocklys
+ */
+export * from './lib/blocklys/ngx-blocklys.component';
+export * from './lib/ngx-blocklys.module';
+export * from './lib/ngx-blocklys.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3Byb2plY3RzL25neC1ibG9ja2x5cy9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7OztHQU9HO0FBQ0g7O0dBRUc7QUFFSCxjQUFjLHVDQUF1QyxDQUFDO0FBQ3RELGNBQWMsMkJBQTJCLENBQUM7QUFDMUMsY0FBYyw0QkFBNEIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBAQXV0aG9yOiBqdW5zaGVuZy5saXVcbiAqIEBEZXNjcmlwdHRpb246XG4gKiBARGF0ZTogMjAyMS0xMS0wMSAxNTowMjoyMVxuICogQExhc3RFZGl0b3JzOiBqdW5zaGVuZ1xuICogQExhc3RFZGl0VGltZTogMjAyMS0xMS0wMSAxNToyNzoxMVxuICogQEZpbGVQYXRoOiAvYW5ndWxhci1ibG9ja2x5L3Byb2plY3RzL25neC1ibG9ja2x5cy9zcmMvcHVibGljLWFwaS50c1xuICovXG4vKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1ibG9ja2x5c1xuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL2Jsb2NrbHlzL25neC1ibG9ja2x5cy5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LWJsb2NrbHlzLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtYmxvY2tseXMuc2VydmljZSc7XG5cbiJdfQ==

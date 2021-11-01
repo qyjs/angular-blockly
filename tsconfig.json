@@ -12,9 +12,9 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
-      "ngx-blockly-ebao": [
-        "dist/ngx-blockly-ebao/ngx-blockly-ebao",
-        "dist/ngx-blockly-ebao"
+      "ngx-blocklys": [
+        "dist/ngx-blocklys/ngx-blocklys",
+        "dist/ngx-blocklys"
       ]
     },
     "experimentalDecorators": true,

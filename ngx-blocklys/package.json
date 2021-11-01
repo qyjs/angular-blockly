@@ -1,0 +1,35 @@
+{
+  "name": "ngx-blocklys",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qyjs"
+  },
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "description": "blockly test",
+  "keywords": [
+    "angular",
+    "typescript",
+    "blockly"
+  ],
+  "author": {
+    "name": "qyjs",
+    "email": "qyjs@qq.com",
+    "url": "https://github.com/qyjs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/qyjs",
+  "main": "bundles/ngx-blocklys.umd.js",
+  "module": "fesm2015/ngx-blocklys.js",
+  "es2015": "fesm2015/ngx-blocklys.js",
+  "esm2015": "esm2015/ngx-blocklys.js",
+  "fesm2015": "fesm2015/ngx-blocklys.js",
+  "typings": "ngx-blocklys.d.ts",
+  "sideEffects": false
+}

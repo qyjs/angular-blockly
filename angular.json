@@ -34,13 +34,13 @@
               "src/assets",
               {
                 "glob": "**/*",
-                "input": "node_modules/ngx-blockly-ebao/assets",
+                "input": "node_modules/ngx-blocklys/assets",
                 "output": "assets"
               }
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/ngx-blockly-ebao/theme/blockly.scss"
+              "node_modules/ngx-blocklys/theme/blockly.scss"
             ],
             "scripts": []
           },
@@ -115,23 +115,23 @@
         }
       }
     },
-    "ngx-blockly-ebao": {
+    "ngx-blocklys": {
       "projectType": "library",
-      "root": "projects/ngx-blockly-ebao",
-      "sourceRoot": "projects/ngx-blockly-ebao/src",
+      "root": "projects/ngx-blocklys",
+      "sourceRoot": "projects/ngx-blocklys/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-blockly-ebao/ng-package.json"
+            "project": "projects/ngx-blocklys/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-blockly-ebao/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-blocklys/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-blockly-ebao/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-blocklys/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -139,9 +139,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-blockly-ebao/src/test.ts",
-            "tsConfig": "projects/ngx-blockly-ebao/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-blockly-ebao/karma.conf.js"
+            "main": "projects/ngx-blocklys/src/test.ts",
+            "tsConfig": "projects/ngx-blocklys/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-blocklys/karma.conf.js"
           }
         }
       }

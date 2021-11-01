@@ -3,12 +3,12 @@
  * @Descripttion:
  * @Date: 2021-11-01 14:58:20
  * @LastEditors: junsheng
- * @LastEditTime: 2021-11-01 15:14:08
- * @FilePath: /Blockly/angular-blockly/src/app/app.module.ts
+ * @LastEditTime: 2021-11-01 15:43:37
+ * @FilePath: /angular-blockly/src/app/app.module.ts
  */
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxBlocklyEbaoModule } from 'ngx-blockly-ebao';
+import { NgxBlocklysModule } from 'ngx-blocklys';
 import { AppComponent } from './app.component';
 
 
@@ -19,7 +19,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    NgxBlocklyEbaoModule,
+    NgxBlocklysModule,
     BrowserModule
   ],
   providers: [],
