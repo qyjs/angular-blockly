@@ -1,0 +1,25 @@
+{
+  "name": "ngx-blockly-ebao",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "description": "blockly test",
+  "keywords": [
+    "blockly"
+  ],
+  "author": {
+    "name": "qyjs",
+    "email": "qyjs@qq.com",
+    "url": "https://github.com/qyjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com"
+  },
+  "homepage": "https://github.com"
+}
