@@ -29,7 +29,7 @@ specifiers:
   karma-jasmine: ~4.0.0
   karma-jasmine-html-reporter: ~1.7.0
   ng-packagr: ^12.1.1
-  ngx-blocklys: file:ngx-blocklys/ngx-blocklys-0.0.1.tgz
+  ngx-blocklys: ^0.0.2
   rxjs: ~6.6.0
   tslib: ^2.3.0
   typescript: ~4.3.5
@@ -44,7 +44,7 @@ dependencies:
   '@angular/platform-browser': 12.2.12_a417bba42e25ecd3007e95dce9bb495e
   '@angular/platform-browser-dynamic': 12.2.12_64ac2eb53e03b5dc63e4506b9326b8c2
   '@angular/router': 12.2.12_aea4f73124078e325b92171f44317426
-  ngx-blocklys: file:ngx-blocklys/ngx-blocklys-0.0.1.tgz_ea8fb076018c6b476dd145c94d6312a0
+  ngx-blocklys: 0.0.2_ea8fb076018c6b476dd145c94d6312a0
   rxjs: 6.6.7
   tslib: 2.3.1
   zone.js: 0.11.4
@@ -6369,6 +6369,17 @@ packages:
       - '@types/node'
     dev: true
 
+  /ngx-blocklys/0.0.2_ea8fb076018c6b476dd145c94d6312a0:
+    resolution: {integrity: sha512-mdtlXwWW2Bj3Kn5eAuddpeydKNhUBRMaTarfpUBqLScWTvWID4v5XMeWZfQo1WVGrCqL5pqai5nOmD23k/YSSg==}
+    peerDependencies:
+      '@angular/common': ^12.2.0
+      '@angular/core': ^12.2.0
+    dependencies:
+      '@angular/common': 12.2.12_@angular+core@12.2.12+rxjs@6.6.7
+      '@angular/core': 12.2.12_rxjs@6.6.7+zone.js@0.11.4
+      tslib: 2.3.1
+    dev: false
+
   /nice-napi/1.0.2:
     resolution: {integrity: sha512-px/KnJAJZf5RuBGcfD+Sp2pAKq0ytz8j+1NehvgIGFkvtvFrDM3T8E4x/JJODXK9WZow8RRGrbA9QQ3hs+pDhA==}
     os: ['!win32']
@@ -9482,19 +9493,5 @@ packages:
   /zone.js/0.11.4:
     resolution: {integrity: sha512-DDh2Ab+A/B+9mJyajPjHFPWfYU1H+pdun4wnnk0OcQTNjem1XQSZ2CDW+rfZEUDjv5M19SBqAkjZi0x5wuB5Qw==}
     dependencies:
-      tslib: 2.3.1
-    dev: false
-
-  file:ngx-blocklys/ngx-blocklys-0.0.1.tgz_ea8fb076018c6b476dd145c94d6312a0:
-    resolution: {integrity: sha512-wtOClI4ZZsMN0lkjKj2MpAa1rWDRkfzqWbTbTgL0Z71DwvRI+yCYSzVHi22ODixosR6nzGATM4uyfhdM+Dm2tQ==, tarball: file:ngx-blocklys/ngx-blocklys-0.0.1.tgz}
-    id: file:ngx-blocklys/ngx-blocklys-0.0.1.tgz
-    name: ngx-blocklys
-    version: 0.0.1
-    peerDependencies:
-      '@angular/common': ^12.2.0
-      '@angular/core': ^12.2.0
-    dependencies:
-      '@angular/common': 12.2.12_@angular+core@12.2.12+rxjs@6.6.7
-      '@angular/core': 12.2.12_rxjs@6.6.7+zone.js@0.11.4
       tslib: 2.3.1
     dev: false
